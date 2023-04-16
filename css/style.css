@@ -2,7 +2,7 @@
     width: 100%;
 
     margin: 0 auto;
-    padding-top: 90px;
+    padding-top: 120px;
     background-color: #f2f2f2;
   }
   .promo {
@@ -45,6 +45,15 @@
     transition: all 0.3s ease;
   }
   .promo-button:hover {
-    background-color: #0056b3;
+    background-color: #ff0000c4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  section{
+    display:flex;
+    background-color: #f2f2f2;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 90px;
   }
