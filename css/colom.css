@@ -34,6 +34,12 @@
         justify-content: space-between;
         padding: 1px 29px;
         }
+.ikon{
+    display:flex ;
+    
+    
+    
+}
  @media only screen and (max-width: 768px) {
     .footer-content{
         display: none;
