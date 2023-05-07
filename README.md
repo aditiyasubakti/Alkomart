@@ -5,7 +5,16 @@
 <br>
 <h1>Link</h1><br>
 https://alkomart.vercel.app/
+
+<br>
+<h1>View </h1><br>
+
+![image](https://user-images.githubusercontent.com/76142476/236685487-d6ecb722-fb1c-433c-8ec0-46bbf74edf23.png)
+
 <br>
 <h1>Mobile View </h1><br>
 
 ![image](https://user-images.githubusercontent.com/76142476/236685269-0ff876cf-4e4f-408a-bdcb-c4b6e47c0180.png)
+
+
+
