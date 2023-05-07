@@ -7,4 +7,5 @@
 https://alkomart.vercel.app/
 <br>
 <h1>Mobile View </h1><br>
+
 ![image](https://user-images.githubusercontent.com/76142476/236685269-0ff876cf-4e4f-408a-bdcb-c4b6e47c0180.png)
