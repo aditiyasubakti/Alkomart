@@ -1,8 +1,7 @@
 .category{
- display:block;
- 
- justify-content: left;
- 
+ top: 0;
+ background-color: transparent;
+ margin-left: 9px;
  font-weight: bold;
  color: rgba(71, 71, 71, 0.702);
  font-family:Arial, Helvetica, sans-serif ;

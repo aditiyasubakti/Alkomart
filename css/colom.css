@@ -32,3 +32,35 @@
     
     
 }
+.col-4{
+    height: 50px;
+    display:flexbox;
+    justify-content: space-between;
+    float: right;
+    
+    width: 25%;
+    
+    
+}
+.col-5{
+    height: 50px;
+    display:flexbox;
+    justify-content: space-between;
+    float: right;
+    
+    
+    
+    
+}
+.warp{
+    
+    display:flex;
+    width: 100%;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.rows{
+    display: block;
+    flex-direction: column-reverse;
+    width: 100%;
+}
