@@ -28,14 +28,14 @@ li{
   display: flex;  
 
 }
-a{
+.nav-a{
   display: block;
   color: rgba(248, 222, 222, 0.809);
  
   font-size: 20px;
   text-decoration: none;
 }
-a:hover {
+.nav-a:hover {
   color: #5c1b1b;
 }
 

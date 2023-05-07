@@ -1,23 +1,24 @@
-.col-1{
-    
-    display: flexbox;
-    
-    height: 50px;
-    width: 25%;
-
-}
-.col-2{
-
-    display: flexbox;
-    height: 50px;
-    width: 25%;
-}
 .col{
     display: flex;
-    justify-content: space-between;
-    flex: 0.1;
+        
 }
 .warp{
     display: flex;
+    
     max-width: 100%;
+    justify-content:space-between;
+
 }
+.footer{
+    
+    color: white;
+    width: auto;
+    
+    
+  }
+  .footer-content{
+      display: flex;
+      max-width: 100%;
+      justify-content: space-between;
+      padding: 1px 50px;
+      }
