@@ -91,6 +91,84 @@ body::-webkit-scrollbar{
   height: 1px;
   border-color: white;
 }
+
+
+.wrap-content{
+  margin-top: 10px;
+  background-color: transparent;
+}
+.tls{
+  display: flex;
+  justify-content: center;
+  padding-top:15px ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ac2c2c;
+  font-size: 20PX;
+}
+header{
+  
+  justify-content: center;
+  background-color: white;
+  
+}
+.header-line{
+  
+  background-color: #930000;
+  margin-top: 20px;
+  width: 100%;
+  height: 5px;
+}
+.bingkai {
+  background-color: white;
+  word-break: break-all;
+  text-decoration: none;
+  color: black;
+  width: 20%;
+  height: 60%;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);  
+}
+
+.bingkai:hover {
+  
+  box-shadow: 0px 0px 2px 2px #930000;
+  /* border: 1px outset #930000; */
+}
+
+.img-gambar {
+  max-height: 40%;
+}
+
+pre {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30%;
+}
+
+.produc-text {
+  padding: 0px 8px;
+}
+
+.cash {
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: #ac2c2c;
+}
+
+.view {
+  color: rgba(31, 27, 27, 0.841);
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0px 5%;
+  margin-bottom: 9px;
+  width: 90%;
+}
+
   /* moble view */
   @media only screen and (max-width: 768px) {
     .container {
@@ -141,6 +219,56 @@ body::-webkit-scrollbar{
       background-color: #ff0000c4;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
+
+/* produk rekomendasi mobile */
+.content {
+  display:flex;
+  margin-top: 15px;
+  word-break: break-all;
+  padding: 0px 5%;
+  margin-bottom: 9px;
+  width: 90%;
+  
+}
+.bingkai {
+  background-color: white;
+  word-break: break-all;
+  text-decoration: none;
+  color: black;
+  width: 20%;
+  height: 60%;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);  
+}
+.img-gambar {
+  max-height: 30%;
+}
+
+pre {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.produc-text {
+  font-size: 12px;
+  padding: 0px 8px;
+}
+
+.cash {
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #ac2c2c;
+}
+
+.view {
+  color: rgba(31, 27, 27, 0.841);
+  font-size: 11px;
+}
+
+
+
+
     footer{
     
       background-color: #ac2c2c;  
