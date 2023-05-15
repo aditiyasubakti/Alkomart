@@ -1,0 +1,62 @@
+.stars {
+    display: flex;
+    margin-top: 2%;
+
+    flex-wrap: wrap;
+  }
+  .rating{
+    color: #ac2c2c;
+    font-size: 25px;
+  }
+  .star {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: rgba(255, 217, 0, 0.778);
+    margin: 1px;
+    clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+  }
+
+  
+  .cart-icon {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-image: url('../componen/troli.png');
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

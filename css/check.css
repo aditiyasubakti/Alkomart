@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    min-height: auto;
+    max-width: 100%;
+  }
+  .check{
+    display: flex;
+    justify-content: left;
+    
+    margin-top: 50px;
+
+  }
+  .check-col{
+    margin-left: 5%;
+    word-break: break-all;
+    width: 60%;
+    
+    
+  }
+  .cash{
+    
+    font-size: 40px;
+  }
+  .roll{
+    display: flex;
+    margin-top: 30%;
+    gap: 2rem;
+  }
+  .buy{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ac2c2c;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  .buy:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+  }
+  .buy:hover{
+    color:#ac2c2c;
+    background-color: #fff;
+    }
+  .buy:hover:before {
+      width: 100%;
+    }
+  .img-gambar{
+    width: 30%;
+    padding: 4px 10px
+  }
+  main{
+padding-bottom: 10%;
+  }
