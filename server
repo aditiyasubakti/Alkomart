@@ -1,0 +1,32 @@
+import http.server
+import socketserver
+import subprocess
+import os
+
+PORT = 8000
+DIRECTORY = "./"
+
+handler = http.server.CGIHTTPRequestHandler
+
+with socketserver.TCPServer(("", PORT), handler) as httpd:
+    httpd.allow_reuse_address = True
+
+    print(f"Port utama untuk html {PORT}")
+    print(f"Direktory yang dipake {DIRECTORY}")
+    print("Untuk Memberhentikan server tekan ctrl+c.")
+
+    php_server = subprocess.Popen(
+        ["php", "-S", "127.0.0.1:9000", "-t", f"{DIRECTORY}"])
+
+    php_server_pid = php_server.pid
+
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        pass
+
+    php_server.terminate()
+
+    os.kill(php_server_pid, signal.SIGTERM)
+
+print("Server Berhenti.")
