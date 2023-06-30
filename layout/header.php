@@ -34,7 +34,7 @@ $session = $_SESSION['username'];
                     <li><a class="navbar nav-a active" href="./">Home</a></li>
                     <li><a class="navbar nav-a" href="about.html">About</a></li>
                     <li><a class="navbar nav-a" href="product.html">Product</a></li>
-                    <li><a class="navbar nav-a" href="contact.html">Contact</a></li>
+                    <li><a class="navbar nav-a" href="contact.php">Contact</a></li>
                 </ul>
             </li>
             <li class="search">

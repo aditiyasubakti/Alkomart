@@ -26,7 +26,7 @@ if (isset($_POST['register'])) {
         // Memeriksa apakah data yang dibutuhkan (username dan password) sudah diisi
         if (isset($_POST['username']) && isset($_POST['password'])) {
             $username = $_POST['username'];
-            $password = $_POST['password'];
+            $password = hash('sha256', $_POST['password']);
 
             // Menggunakan mekanisme penyimpanan data sederhana (misalnya, file)
             $directory = 'database/users/';
@@ -53,7 +53,10 @@ if (isset($_POST['register'])) {
             $passwordFile = $directory . 'password/' . $username . '.db';
             file_put_contents($passwordFile, $password);
 
-            echo "Registrasi berhasil. Silakan login dengan username dan password Anda.";
+            echo ("<script LANGUAGE='JavaScript'>
+                window.alert('Register Succesfully');
+                window.location.href='login.php';
+                </script>");
         }
     }
 }

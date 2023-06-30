@@ -8,7 +8,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
-    $password = $_POST['password'];
+    $password = hash('sha256', $_POST['password']);
     $directory = 'database/users/';
     $filename = $directory . 'users.db';
     $passwordFile = $directory . 'password/' . $username . '.db';
