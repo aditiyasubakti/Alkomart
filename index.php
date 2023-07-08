@@ -40,7 +40,7 @@
         <div class="col"><img src="product/cheetos.png" width="70" alt=""></div>
     </div>
 </section>
-<!-- kontent -->
+<!-- kontent ses -->
 <section class="wrap-content">
     <header>
         <h1 class="tls">REKOMENDASI</h1>
