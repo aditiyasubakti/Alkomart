@@ -3,8 +3,10 @@
 <p>Ketika Anda memasuki Alkomart, Anda akan merasakan atmosfer yang ramah dan menyambut. Rak-rak di toko ini dipenuhi dengan berbagai pilihan minuman halal yang bervariasi, mulai dari jus buah segar, minuman ringan alami, hingga mocktail kreatif yang menggugah selera.</p>
 <p>Setiap produk yang dijual di Alkomart Halal telah melalui proses seleksi yang ketat untuk memastikan keaslian dan kehalalannya. Semua bahan yang digunakan dalam minuman tersebut diproduksi dengan standar yang tinggi dan dijamin tidak mengandung bahan-bahan haram.</p>
 <br>
-<h1>Link</h1><br>
+<h1>Link error </h1><br>
 https://alkomart.vercel.app/
+<h1>Link </h1><br>
+https://aditiyasubakti.000webhostapp.com/
 
 <br>
 <h1>View </h1><br>
